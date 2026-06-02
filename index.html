@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dylan Van Zyl — Cinematographer & Director</title>
+<meta name="description" content="Cape Town–based cinematographer and director. Documentary, branded and editorial film — featured on Amazon Prime, Ginx Esports TV and at Southampton Film Week.">
+<meta name="author" content="Dylan Van Zyl">
+<meta name="theme-color" content="#0a0806">
+<!-- TODO: replace https://dylanvanzyl.com with your real Cloudflare domain -->
+<link rel="canonical" href="https://dylanvanzyl.com/">
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dylan Van Zyl — Cinematographer & Director">
+<meta property="og:description" content="Cape Town–based cinematographer and director. Documentary, branded and editorial film.">
+<meta property="og:url" content="https://dylanvanzyl.com/">
+<meta property="og:image" content="https://dylanvanzyl.com/images/ascend.jpg">
+<meta property="og:image:alt" content="Dylan Van Zyl — cinematography">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dylan Van Zyl — Cinematographer & Director">
+<meta name="twitter:description" content="Cape Town–based cinematographer and director. Documentary, branded and editorial film.">
+<meta name="twitter:image" content="https://dylanvanzyl.com/images/ascend.jpg">
+<!-- favicon: inline SVG monogram (no extra file) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0806'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='19' fill='%23c8a87a' text-anchor='middle'%3ED%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0806;
+  --card:#110e0b;
+  --warm:#c8a87a;
+  --warm-dim:rgba(200,168,122,0.35);
+  --warm-glow:rgba(200,168,122,0.06);
+  --w1:rgba(245,240,232,1);
+  --w8:rgba(245,240,232,0.8);
+  --w5:rgba(245,240,232,0.5);
+  --w3:rgba(245,240,232,0.3);
+  --w15:rgba(245,240,232,0.15);
+  --w08:rgba(245,240,232,0.08);
+  --w04:rgba(245,240,232,0.04);
+  --mono:'Space Mono',monospace;
+  --serif:'Playfair Display',Georgia,serif;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--w1);font-family:var(--mono);overflow-x:hidden;cursor:crosshair}
+
+/* ── FILM GRAIN OVERLAY ─────────── */
+body::after{
+  content:'';position:fixed;inset:0;z-index:9999;pointer-events:none;
+  background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAMqADAAQAAAABAAAAMgAAAABqEB4fAAABqUlEQVRoBe2ZzU7CQBSF2wICCi5cuHDjwo0Ll258A30U38F38QF04cqFC1cuNCCIP87XZJJmmNLOtAPG5CT3Tmc695vbO51OkyQQCAQCgUAgEAgEAoFA4J8STA5tvV6/ms1me9pf6f6t9of1ev2S7Bf+xRp2dnd3X0aj0UVRFLv0t3hfrVQ2h4PBab1eO3Pu24t78Bdn0OvtpFR6URQHur/j/axWq50MB4NT/X/u2Lcf7yBq5FZJ7BdFsaNn56PRaHMwGJysr68fu/bvdSMaZEWNnOf5RpZl28p0Wy6dVMq1c/e+vYOgx6WSOFYSm3m+sZVl2+dZdlJ3z2DP+I7Ig+5e9Xp7u0rhUInsiQn12fYNDowPiKL4UBJbWZ5vbKbpySeSzgaJ1Gq1k+fZhpLY0vVx3p8eKYlTe99+PI6QXEqCtCLxpSTWVDLcKYnjWrn+HyISCKyaBkkS39A0SpLEfUqpL0pyQ0lstFqtC+v7Xj9K2SOStJ0kiQ1+K4niQEncOPfvw5uBIHuS4k7X2/n6cSBLjyQFJHFE0lnx3P8JfwAK6j5fy7dsfgAAAABJRU5ErkJggg==");
+  background-repeat:repeat;background-size:50px;
+  opacity:.04;mix-blend-mode:overlay;
+}
+
+/* ── WARM VIGNETTE ──────────────── */
+body::before{
+  content:'';position:fixed;inset:0;z-index:9998;pointer-events:none;
+  background:radial-gradient(ellipse at center,transparent 40%,rgba(6,4,2,0.55) 100%);
+}
+
+/* ── NAV ─────────────────────────── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:200;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1.6rem 3rem;
+  background:linear-gradient(to bottom,rgba(10,8,6,0.9) 0%,transparent 100%);
+}
+.nav-logo{font-family:var(--serif);font-size:.85rem;font-weight:400;font-style:italic;letter-spacing:.08em;color:var(--warm);text-decoration:none}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{font-size:.52rem;letter-spacing:.25em;color:var(--w3);text-decoration:none;transition:color .35s}
+.nav-links a:hover{color:var(--warm)}
+/* hamburger — hidden on desktop */
+.nav-toggle{
+  display:none;position:relative;z-index:210;
+  width:30px;height:22px;background:none;border:none;cursor:pointer;padding:0;
+}
+.nav-toggle span{
+  position:absolute;left:0;width:100%;height:2px;background:var(--warm);
+  transition:transform .35s,opacity .25s,top .35s;
+}
+.nav-toggle span:nth-child(1){top:0}
+.nav-toggle span:nth-child(2){top:10px}
+.nav-toggle span:nth-child(3){top:20px}
+.nav-toggle.active span:nth-child(1){top:10px;transform:rotate(45deg)}
+.nav-toggle.active span:nth-child(2){opacity:0}
+.nav-toggle.active span:nth-child(3){top:10px;transform:rotate(-45deg)}
+
+/* ── HELPERS ─────────────────────── */
+.sl{font-size:.5rem;font-weight:700;letter-spacing:.35em;color:var(--warm-dim);margin-bottom:.9rem}
+hr{border:none;border-top:1px solid var(--w08)}
+
+/* ── REVEAL ──────────────────────── */
+.r{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s ease}
+.r.on{opacity:1;transform:translateY(0)}
+
+/* ══════════════════════════════════
+   §1  INTRO
+══════════════════════════════════ */
+#intro{
+  position:relative;overflow:hidden;
+  padding:8.5rem 3rem 5rem;text-align:center;min-height:100vh;
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
+}
+/* full-bleed background — drop images/hero.jpg to override the g1 fallback */
+.hero-bg{
+  position:absolute;inset:0;z-index:0;
+  background-position:center;background-size:cover;background-repeat:no-repeat;
+  background-image:url('images/hero.jpg'),url('images/g1.jpg');
+  filter:grayscale(.12) brightness(.82) contrast(1.06) sepia(.05);
+  transform:scale(1.04);
+  animation:heroDrift 22s ease-in-out infinite alternate;
+}
+@keyframes heroDrift{from{transform:scale(1.04)}to{transform:scale(1.12)}}
+/* cinematic scrim for legibility + on-brand warmth */
+.hero-scrim{
+  position:absolute;inset:0;z-index:1;
+  background:
+    radial-gradient(circle at 50% 42%,transparent 0%,rgba(10,8,6,.55) 100%),
+    linear-gradient(180deg,rgba(10,8,6,.62) 0%,rgba(10,8,6,.30) 38%,rgba(10,8,6,.78) 100%);
+}
+.hero-inner{position:relative;z-index:2;max-width:1000px}
+
+.hero-eye{
+  font-size:.55rem;letter-spacing:.3em;color:var(--warm);
+  margin-bottom:1.4rem;display:flex;align-items:center;justify-content:center;gap:.8rem;
+}
+.hero-eye::before,.hero-eye::after{content:'';display:block;width:36px;height:1px;background:var(--warm-dim)}
+
+.hero-h1{
+  font-family:var(--serif);
+  font-size:clamp(3rem,6.6vw,6.2rem);font-weight:400;
+  letter-spacing:.01em;line-height:.95;
+  margin-bottom:1.3rem;
+  text-shadow:0 2px 40px rgba(0,0,0,.45);
+}
+.hero-tag{font-size:.82rem;color:var(--w8);letter-spacing:.1em;font-family:var(--serif);font-style:italic;text-shadow:0 1px 18px rgba(0,0,0,.85),0 0 4px rgba(0,0,0,.6)}
+
+/* scroll cue */
+.hero-scroll{
+  position:absolute;bottom:1.8rem;left:50%;transform:translateX(-50%);z-index:2;
+  width:22px;height:34px;border:1px solid var(--w15);border-radius:11px;
+  display:flex;justify-content:center;padding-top:6px;
+  transition:border-color .3s;
+}
+.hero-scroll:hover{border-color:var(--warm-dim)}
+.hero-scroll span{width:2px;height:7px;background:var(--warm);border-radius:1px;animation:scrolldot 1.9s ease-in-out infinite}
+@keyframes scrolldot{0%{opacity:0;transform:translateY(-3px)}30%{opacity:1}65%{opacity:1;transform:translateY(7px)}100%{opacity:0;transform:translateY(9px)}}
+
+/* video grid */
+.vg{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
+  margin:3.5rem 0;
+}
+.vc{
+  position:relative;aspect-ratio:16/9;background:var(--card);
+  overflow:hidden;cursor:pointer;
+}
+.vc-thumb{
+  position:absolute;inset:0;
+  background-size:cover;background-position:center;
+  filter:brightness(.5) saturate(.4) sepia(.15);
+  transition:transform .65s cubic-bezier(.25,.46,.45,.94),filter .45s;
+}
+.vc:hover .vc-thumb{transform:scale(1.06);filter:brightness(.75) saturate(.6) sepia(.08)}
+.vc-shade{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(0,0,0,.85) 0%,transparent 55%);
+}
+.vc-play{
+  position:absolute;top:50%;left:50%;
+  transform:translate(-50%,-50%);
+  width:46px;height:46px;border-radius:50%;
+  border:1px solid var(--warm-dim);
+  display:flex;align-items:center;justify-content:center;
+  transition:border-color .3s,background .3s,transform .3s;
+}
+.vc:hover .vc-play{border-color:var(--warm);background:rgba(200,168,122,.1);transform:translate(-50%,-50%) scale(1.08)}
+.vc-play svg{width:13px;height:13px;fill:var(--warm);margin-left:2px}
+.vc-meta{position:absolute;bottom:0;left:0;right:0;padding:1rem 1.1rem;text-align:center}
+.vc-title{font-family:var(--serif);font-size:.65rem;font-weight:400;letter-spacing:.03em;color:var(--w8);line-height:1.5;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vc-views{font-size:.45rem;color:var(--warm-dim);letter-spacing:.15em;margin-top:.35rem}
+
+/* embed card thumbnails */
+.vc-thumb-grad{filter:none!important}
+.vc:hover .vc-thumb-grad{filter:brightness(1.12)!important;transform:scale(1.03)}
+
+.work-intro{max-width:620px;margin:0 auto;font-size:.8rem;line-height:1.95;color:var(--w5);letter-spacing:.02em}
+
+/* ── FEATURED FILM ───────────────── */
+#film{padding:6rem 3rem;text-align:center}
+.film-grid{display:grid;grid-template-columns:minmax(280px,420px) 1fr;gap:4rem;align-items:center;max-width:1040px;margin:2.4rem auto 0}
+.film-poster img{width:100%;height:auto;display:block;border:1px solid var(--w08);box-shadow:0 30px 70px rgba(0,0,0,.55)}
+.film-copy{text-align:left}
+.film-h{font-family:var(--serif);font-size:clamp(2rem,4vw,3.2rem);font-weight:400;line-height:1.02;margin:0 0 1.1rem}
+.film-tag{font-size:.5rem;letter-spacing:.22em;color:var(--warm);margin-bottom:1.8rem}
+.film-copy p{font-size:.8rem;line-height:1.95;color:var(--w5);letter-spacing:.02em;margin-bottom:1.1rem}
+.film-credit{font-size:.5rem!important;letter-spacing:.22em;color:var(--warm-dim)!important;margin-top:1.6rem}
+
+/* platform badge */
+.vc-badge{
+  position:absolute;top:.8rem;left:.8rem;z-index:2;
+  font-size:.4rem;font-weight:700;letter-spacing:.2em;
+  color:var(--warm);background:rgba(10,8,6,.7);
+  border:1px solid var(--warm-dim);
+  padding:.3rem .65rem;backdrop-filter:blur(6px);
+}
+.vc-badge-li{color:#5b9bd5;border-color:rgba(91,155,213,.35)}
+.vc-play-li{border-color:rgba(91,155,213,.35)}
+.vc-play-li svg{fill:#5b9bd5}
+.vc:hover .vc-play-li{border-color:#5b9bd5;background:rgba(91,155,213,.1)}
+
+/* stats */
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border-top:1px solid var(--w08);border-bottom:1px solid var(--w08);
+  margin-bottom:4rem;
+}
+.stat{
+  padding:2.2rem 1rem;text-align:center;
+  border-right:1px solid var(--w08);
+}
+.stat:last-child{border-right:none}
+.stat-n{
+  font-family:var(--serif);
+  font-size:clamp(2rem,3.8vw,3.6rem);font-weight:400;
+  letter-spacing:-.01em;line-height:1;color:var(--warm);
+}
+.stat-l{font-size:.45rem;color:var(--w3);letter-spacing:.25em;margin-top:.55rem}
+
+/* brands — logo wall */
+.brands{display:flex;flex-wrap:wrap;justify-content:center;gap:.8rem;margin:1.8rem auto 0;max-width:920px}
+.br{
+  display:flex;align-items:center;justify-content:center;
+  min-width:200px;height:120px;padding:0 2rem;
+  font-size:.62rem;font-weight:700;letter-spacing:.18em;
+  color:var(--w15);background:var(--card);
+  border:1px solid var(--w08);
+  transition:color .35s,border-color .35s;
+}
+.br:hover{color:var(--warm-dim);border-color:var(--warm-dim)}
+.br img{display:block;width:auto;height:auto;opacity:.9;transition:opacity .35s,transform .4s}
+.br:hover img{opacity:1;transform:scale(1.04)}
+.br-logo{padding:0 1.4rem}
+/* square-ish logos — sized by height */
+.br-amazon img{max-height:88px;max-width:92px}
+.br-ginx img{max-height:106px;max-width:122px}
+.br-sfw img{max-height:104px;max-width:114px}
+.br-humanist img{max-height:46px;max-width:170px}
+/* wide logos — sized by width */
+.br-aag img{max-height:50px;max-width:180px}
+.br-sgc img{max-height:68px;max-width:188px}
+.br-fahari img{max-height:94px;max-width:150px}
+/* light-background logos sit on a light card */
+.br-light{background:#f3efe7;border-color:#e6ddcc}
+.br-light:hover{border-color:var(--warm)}
+
+/* ══════════════════════════════════
+   §2  SHOWREEL
+══════════════════════════════════ */
+#showreel{padding:5.5rem 3rem;text-align:center}
+.sr-head{display:flex;flex-direction:column;align-items:center;margin-bottom:2rem}
+.sr-title{font-family:var(--serif);font-size:clamp(1.6rem,3.2vw,2.8rem);font-weight:400;letter-spacing:.02em}
+.sr-year{font-size:.7rem;font-weight:700;color:var(--warm);letter-spacing:.32em;margin-top:.7rem}
+.sr-soon{
+  display:inline-flex;align-items:center;gap:.7rem;margin-top:1.3rem;
+  font-size:.7rem;font-weight:700;letter-spacing:.22em;
+  color:var(--bg);background:var(--warm);
+  border-radius:999px;padding:.85rem 1.8rem;
+  box-shadow:0 8px 30px rgba(200,168,122,.28);
+  text-transform:uppercase;
+}
+.sr-soon-dot{
+  width:9px;height:9px;border-radius:50%;background:var(--bg);
+  box-shadow:0 0 0 0 rgba(10,8,6,.55);animation:soonPulse 1.6s ease-out infinite;
+}
+@keyframes soonPulse{
+  0%{box-shadow:0 0 0 0 rgba(10,8,6,.55)}
+  70%{box-shadow:0 0 0 9px rgba(10,8,6,0)}
+  100%{box-shadow:0 0 0 0 rgba(10,8,6,0)}
+}
+
+.player-wrap{position:relative;width:100%;aspect-ratio:16/9;background:var(--card);overflow:hidden}
+.player-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:none}
+
+.player-ph{
+  position:absolute;inset:0;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.1rem;
+  cursor:pointer;
+}
+.ph-bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:brightness(.3) saturate(.3)}
+.ph-ring{
+  position:relative;z-index:1;
+  width:72px;height:72px;border-radius:50%;
+  border:1px solid var(--warm-dim);
+  display:flex;align-items:center;justify-content:center;
+  transition:border-color .35s,transform .35s,box-shadow .35s;
+}
+.player-ph:hover .ph-ring{border-color:var(--warm);transform:scale(1.08);box-shadow:0 0 40px rgba(200,168,122,.12)}
+.ph-ring svg{fill:var(--warm);margin-left:4px}
+.ph-label{position:relative;z-index:1;font-size:.5rem;letter-spacing:.35em;color:var(--warm-dim)}
+.ph-year{
+  position:absolute;top:1.1rem;left:1.1rem;z-index:2;
+  font-size:.5rem;font-weight:700;letter-spacing:.22em;color:var(--warm);
+  background:rgba(10,8,6,.65);border:1px solid var(--warm-dim);
+  padding:.45rem .8rem;backdrop-filter:blur(6px);
+}
+
+/* ══════════════════════════════════
+   §3  GALLERY RAIL  (sticky scroll)
+══════════════════════════════════ */
+#gallery{position:relative;height:280vh}
+.gallery-sticky{
+  position:sticky;top:0;height:100vh;overflow:hidden;
+  display:flex;flex-direction:column;justify-content:center;
+}
+.gallery-hd{
+  padding:0 3rem;margin-bottom:1.8rem;
+  display:flex;flex-direction:column;align-items:center;text-align:center;
+}
+.gallery-title{font-family:var(--serif);font-size:clamp(1.6rem,3.2vw,2.8rem);font-weight:400;letter-spacing:.02em}
+.gallery-hint{font-size:.45rem;color:var(--warm-dim);letter-spacing:.25em;margin-top:.5rem}
+
+.g-track-wrap{overflow:hidden;padding:0 3rem}
+.g-track{display:flex;gap:1px;will-change:transform}
+
+.gi{flex-shrink:0;height:54vh;overflow:hidden}
+.gi:nth-child(odd){width:calc(54vh * .68)}
+.gi:nth-child(even){width:calc(54vh * 1.38)}
+.gi img{
+  width:100%;height:100%;object-fit:cover;display:block;
+  filter:brightness(.6) saturate(.35) sepia(.12);
+  transition:filter .5s cubic-bezier(.25,.46,.45,.94);
+}
+.gi:hover img{filter:brightness(.88) saturate(.65) sepia(.05)}
+
+.g-prog{margin:1.4rem 3rem 0;height:1px;background:var(--w08);position:relative}
+.g-prog-fill{position:absolute;top:0;left:0;height:100%;width:0%;background:var(--warm)}
+
+/* ══════════════════════════════════
+   §4  CONTACT
+══════════════════════════════════ */
+#contact{
+  min-height:100vh;padding:8rem 3rem;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;
+}
+.ct-inner{max-width:580px;width:100%}
+.ct-h{
+  font-family:var(--serif);
+  font-size:clamp(2.6rem,5.5vw,5rem);font-weight:400;
+  letter-spacing:.02em;line-height:.92;margin-bottom:.8rem;
+}
+.ct-sub{font-size:.65rem;color:var(--warm-dim);letter-spacing:.14em;margin-bottom:3.5rem;font-style:italic;font-family:var(--serif)}
+
+.fg{margin-bottom:2.2rem}
+.fg label{
+  display:block;font-size:.5rem;letter-spacing:.3em;
+  color:var(--w3);margin-bottom:.65rem;
+}
+.fg input,.fg textarea{
+  width:100%;background:transparent;border:none;
+  border-bottom:1px solid var(--w15);
+  color:var(--w1);font-family:var(--mono);
+  font-size:.8rem;letter-spacing:.05em;
+  padding:.5rem 0;outline:none;
+  transition:border-color .35s;resize:none;
+  text-align:left;
+}
+.fg input:focus,.fg textarea:focus{border-bottom-color:var(--warm-dim)}
+.fg textarea{height:90px}
+
+.send-btn{
+  background:transparent;
+  border:1px solid var(--warm-dim);
+  color:var(--warm);font-family:var(--mono);
+  font-size:.55rem;font-weight:700;letter-spacing:.3em;
+  padding:1.1rem 2.6rem;cursor:pointer;
+  transition:background .35s,border-color .35s,color .35s,box-shadow .35s;
+}
+.send-btn:hover{background:var(--warm);color:var(--bg);border-color:var(--warm);box-shadow:0 0 30px rgba(200,168,122,.15)}
+.send-btn:disabled{cursor:default}
+.send-btn.is-error{border-color:rgba(220,90,70,.6);color:rgba(220,90,70,.85)}
+/* honeypot — visually hidden, off-screen, not focusable */
+.hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;opacity:0;pointer-events:none}
+
+/* ── CTA BUTTONS ─────────────────── */
+.cta-btn{
+  display:inline-block;text-decoration:none;
+  background:var(--warm);color:var(--bg);
+  font-family:var(--mono);font-size:.55rem;font-weight:700;letter-spacing:.28em;
+  padding:1rem 2.2rem;border:1px solid var(--warm);
+  transition:background .35s,color .35s,box-shadow .35s;
+}
+.cta-btn:hover{background:transparent;color:var(--warm);box-shadow:0 0 30px rgba(200,168,122,.15)}
+.cta-ghost{background:transparent;color:var(--warm);border-color:var(--warm-dim)}
+.cta-ghost:hover{background:var(--warm);color:var(--bg);border-color:var(--warm)}
+.hero-actions{display:flex;justify-content:center;gap:1rem;margin-top:2.6rem;flex-wrap:wrap}
+
+/* nav cta button */
+.nav-cta{
+  color:var(--warm)!important;border:1px solid var(--warm-dim);
+  padding:.5rem .95rem;
+}
+.nav-cta:hover{background:var(--warm);color:var(--bg)!important}
+
+/* reel cta block */
+.reel-cta{margin-top:2.8rem;display:flex;flex-direction:column;align-items:center;gap:1.1rem}
+.reel-cta-line{font-family:var(--serif);font-style:italic;font-size:1.05rem;color:var(--w5)}
+
+/* moved sections */
+#stats-sec{padding:1.5rem 3rem}
+#stats-sec .stats{margin-bottom:0}
+#work{padding:5rem 3rem;text-align:center}
+#work .vg{margin:2.5rem 0 0}
+#brands-sec{padding:5rem 3rem 5.5rem;text-align:center}
+
+/* generic section heading */
+.sec-h{font-family:var(--serif);font-size:clamp(1.6rem,3.2vw,2.8rem);font-weight:400;letter-spacing:.02em;margin-bottom:2.6rem}
+
+/* ── ABOUT ───────────────────────── */
+#about{padding:6rem 3rem}
+.about-grid{display:grid;grid-template-columns:.82fr 1fr;gap:3.5rem;align-items:center;max-width:1080px;margin:0 auto}
+.about-portrait img{width:100%;height:auto;display:block;filter:grayscale(1) brightness(.95) contrast(1.05)}
+.about-copy{text-align:left}
+.about-h{font-family:var(--serif);font-size:clamp(1.8rem,3.6vw,3rem);font-weight:400;line-height:1.05;margin:.4rem 0 1.6rem}
+.about-copy p{font-size:.8rem;line-height:1.95;color:var(--w5);margin-bottom:1.1rem;letter-spacing:.02em}
+.about-copy em{color:var(--warm);font-style:italic}
+.about-laurel{width:148px;height:auto;margin-top:1.2rem;filter:invert(1);opacity:.8}
+
+/* ── SERVICES ────────────────────── */
+#services{padding:6rem 3rem;text-align:center}
+.svc-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;max-width:1200px;margin:0 auto}
+.svc{flex:1 1 195px;max-width:225px;padding:2.2rem 1.5rem;text-align:left;background:var(--card);border:1px solid var(--w08);transition:border-color .35s,transform .35s}
+.svc:hover{border-color:var(--warm-dim);transform:translateY(-4px)}
+.svc-n{font-size:.55rem;color:var(--warm-dim);letter-spacing:.2em;margin-bottom:1.3rem}
+.svc-t{font-family:var(--serif);font-size:1.02rem;color:var(--w1);margin-bottom:.85rem;letter-spacing:.03em}
+.svc-d{font-size:.68rem;line-height:1.8;color:var(--w5)}
+
+/* ── PODCASTS ────────────────────── */
+#podcasts{padding:6rem 3rem;text-align:center}
+.pod-intro{max-width:620px;margin:0 auto 3rem;font-size:.8rem;line-height:1.95;color:var(--w5);letter-spacing:.02em}
+.pod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;max-width:1080px;margin:0 auto}
+.pod{background:var(--card);border:1px solid var(--w08);padding-bottom:1.4rem;overflow:hidden;cursor:pointer;transition:border-color .35s,transform .35s}
+.pod:hover{border-color:var(--warm-dim);transform:translateY(-4px)}
+.pod-photo{position:relative;aspect-ratio:16/9;background-size:cover;background-position:center;margin-bottom:1.1rem;filter:grayscale(1) brightness(.9) contrast(1.05) sepia(.08);transition:filter .45s,transform .55s cubic-bezier(.25,.46,.45,.94)}
+.pod:hover .pod-photo{filter:grayscale(.15) brightness(1.02) sepia(.03)}
+.pod-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:46px;height:46px;border-radius:50%;border:1px solid var(--warm-dim);display:flex;align-items:center;justify-content:center;background:rgba(10,8,6,.45);transition:border-color .3s,background .3s,transform .3s;z-index:2}
+.pod:hover .pod-play{border-color:var(--warm);background:rgba(200,168,122,.12);transform:translate(-50%,-50%) scale(1.08)}
+.pod-play svg{width:12px;height:12px;fill:var(--warm);margin-left:2px}
+.pod-name{font-family:var(--serif);font-size:1.1rem;color:var(--w1);letter-spacing:.02em}
+.pod-role{font-size:.48rem;color:var(--warm-dim);letter-spacing:.18em;margin-top:.5rem}
+.pod-more-line{margin-top:2.6rem;font-family:var(--serif);font-style:italic;font-size:.9rem;color:var(--w3);letter-spacing:.02em}
+
+/* ── VIDEO LIGHTBOX ──────────────── */
+.vmodal{position:fixed;inset:0;z-index:1000;background:rgba(6,4,2,.93);backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;padding:5vw}
+.vmodal.open{display:flex}
+.vmodal-inner{position:relative;width:100%;max-width:980px}
+.vmodal-frame{position:relative;width:100%;aspect-ratio:16/9;background:#000}
+.vmodal-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:none}
+.vmodal-close{position:absolute;top:-2.6rem;right:0;background:none;border:none;color:var(--w5);font-size:1.7rem;line-height:1;cursor:pointer;font-family:var(--mono);transition:color .3s}
+.vmodal-close:hover{color:var(--warm)}
+
+/* ── EXPERIENCE ──────────────────── */
+#experience{padding:6rem 3rem;text-align:center}
+.xp-list{max-width:760px;margin:0 auto;text-align:left}
+.xp{display:grid;grid-template-columns:120px 1fr;gap:1.5rem;padding:1.9rem 0;border-top:1px solid var(--w08)}
+.xp:last-child{border-bottom:1px solid var(--w08)}
+.xp-year{font-size:.55rem;color:var(--warm);letter-spacing:.18em;padding-top:.3rem}
+.xp-role{font-family:var(--serif);font-size:.98rem;color:var(--w1);margin-bottom:.35rem;letter-spacing:.02em}
+.xp-role em{font-style:italic;color:var(--warm)}
+.xp-co{font-size:.52rem;color:var(--warm-dim);letter-spacing:.18em;margin-bottom:.8rem}
+.xp-d{font-size:.72rem;line-height:1.8;color:var(--w5)}
+
+/* ── CONTACT DIRECT ──────────────── */
+.ct-direct{margin-top:3rem;display:flex;flex-direction:column;gap:.45rem}
+.ct-direct span{font-size:.45rem;letter-spacing:.3em;color:var(--w3);margin-bottom:.4rem}
+.ct-direct a{font-size:.82rem;color:var(--warm);text-decoration:none;letter-spacing:.04em;transition:color .3s}
+.ct-direct a:hover{color:var(--w1)}
+
+/* ── RESPONSIVE ──────────────────── */
+@media(max-width:820px){
+  nav{padding:1.2rem 1.6rem}
+  .nav-logo{font-size:.78rem;white-space:nowrap}
+  .nav-toggle{display:block}
+  /* full-screen slide-in menu */
+  .nav-links{
+    position:fixed;inset:0;z-index:205;
+    flex-direction:column;justify-content:center;align-items:center;gap:2.4rem;
+    background:rgba(8,6,4,.98);backdrop-filter:blur(10px);
+    transform:translateX(100%);transition:transform .42s cubic-bezier(.4,0,.2,1);
+    margin:0;padding:0;
+  }
+  .nav-links.open{transform:translateX(0)}
+  .nav-links a{font-size:1rem;letter-spacing:.28em;color:var(--w8)}
+  .nav-links .nav-cta{padding:.85rem 1.8rem;font-size:.85rem}
+  .vg{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(2){border-right:none}
+  .about-grid{grid-template-columns:1fr;gap:2rem}
+  .about-portrait{max-width:340px;margin:0 auto}
+  .pod-grid{grid-template-columns:1fr;max-width:380px}
+  .film-grid{grid-template-columns:1fr;gap:2.2rem;max-width:380px}
+  .film-poster{max-width:300px;margin:0 auto}
+  .film-copy{text-align:center}
+  .xp{grid-template-columns:1fr;gap:.5rem}
+  .hero-actions{flex-direction:column;align-items:center}
+}
+
+/* ── FOOTER ──────────────────────── */
+footer{
+  padding:2rem 3rem;border-top:1px solid var(--w08);
+  display:flex;justify-content:space-between;align-items:center;
+}
+footer span{font-size:.45rem;color:var(--w3);letter-spacing:.18em}
+footer span:first-child{color:var(--warm-dim)}
+</style>
+</head>
+<body>
+
+<!-- ── NAV ──────────────────────────────── -->
+<nav>
+  <a class="nav-logo" href="#intro">DYLAN VAN ZYL</a>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#showreel" onclick="closeNav()">SHOWREEL</a></li>
+    <li><a href="#work" onclick="closeNav()">WORK</a></li>
+    <li><a href="#film" onclick="closeNav()">FILM</a></li>
+    <li><a href="#podcasts" onclick="closeNav()">PODCASTS</a></li>
+    <li><a href="#services" onclick="closeNav()">SERVICES</a></li>
+    <li><a href="#about" onclick="closeNav()">ABOUT</a></li>
+    <li><a class="nav-cta" href="#contact" onclick="closeNav()">CONTACT</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════════════════════════════════
+  §1  INTRO
+══════════════════════════════════════ -->
+<section id="intro">
+  <div class="hero-bg"></div>
+  <div class="hero-scrim"></div>
+  <div class="hero-inner r">
+    <div class="hero-eye">CINEMATOGRAPHER · DIRECTOR · CAPE TOWN</div>
+    <h1 class="hero-h1">FILM THAT<br>MOVES PEOPLE.</h1>
+    <p class="hero-tag">I shoot and direct documentary, branded and editorial film for brands and storytellers.</p>
+    <div class="hero-actions">
+      <a class="cta-btn" href="#showreel">WATCH THE REEL ↓</a>
+      <a class="cta-btn cta-ghost" href="#contact">START A PROJECT</a>
+    </div>
+  </div>
+  <a href="#showreel" class="hero-scroll" aria-label="Scroll to showreel"><span></span></a>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §2  SHOWREEL
+══════════════════════════════════════ -->
+<section id="showreel">
+  <div class="sr-head r">
+    <div>
+      <div class="sl" style="margin-bottom:.4rem">FEATURED</div>
+      <div class="sr-title">SHOWREEL</div>
+    </div>
+    <div class="sr-year">2023 SHOWREEL</div>
+    <div class="sr-soon"><span class="sr-soon-dot"></span>NEW REEL IN EDIT — COMING SOON</div>
+  </div>
+
+  <!-- ↓ Replace SHOWREEL_ID with your YouTube video ID ↓ -->
+  <div class="player-wrap r" id="main-player">
+    <div class="player-ph" id="player-ph" onclick="loadShowreel('7UDjVQI9gus')">
+      <div class="ph-bg" style="background-image:url('https://img.youtube.com/vi/7UDjVQI9gus/sddefault.jpg')"></div>
+      <div class="ph-year">2023 SHOWREEL</div>
+      <div class="ph-ring">
+        <svg width="20" height="20" viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg>
+      </div>
+      <div class="ph-label">PLAY SHOWREEL</div>
+    </div>
+  </div>
+
+  <div class="reel-cta r">
+    <p class="reel-cta-line">Like what you see?</p>
+    <a class="cta-btn" href="#contact">START A PROJECT →</a>
+  </div>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §3  STATS
+══════════════════════════════════════ -->
+<section id="stats-sec">
+  <div class="stats r">
+    <div class="stat">
+      <div class="stat-n" data-target="10000000" data-fmt="mil">0</div>
+      <div class="stat-l">TOTAL VIEWS ACROSS PLATFORMS</div>
+    </div>
+    <div class="stat">
+      <div class="stat-n" data-target="235" data-sfx="+">0</div>
+      <div class="stat-l">VIDEOS PRODUCED</div>
+    </div>
+    <div class="stat">
+      <div class="stat-n" data-target="124" data-sfx="K">0</div>
+      <div class="stat-l">SUBSCRIBERS</div>
+    </div>
+    <div class="stat">
+      <div class="stat-n" data-target="7" data-sfx="+">0</div>
+      <div class="stat-l">YEARS BEHIND THE LENS</div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §4  NOTABLE WORK
+══════════════════════════════════════ -->
+<section id="work">
+  <div class="sl r">SELECTED WORK</div>
+  <h2 class="sec-h r">Notable Work</h2>
+  <p class="work-intro r">A cross-section of recent film — an award-selected short, long-form interviews and branded editorial across festival, broadcast and social.</p>
+  <div class="vg r">
+    <div class="vc" onclick="document.getElementById('film').scrollIntoView({behavior:'smooth'})">
+      <div class="vc-thumb" style="background-image:url('images/athlone.jpg');background-position:center 28%"></div>
+      <div class="vc-shade"></div>
+      <div class="vc-play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></div>
+      <div class="vc-badge">DOCUMENTARY</div>
+      <div class="vc-meta">
+        <div class="vc-title">A KID FROM ATHLONE</div>
+        <div class="vc-views">OFFICIAL SELECTION · SOUTHAMPTON FILM WEEK 2023</div>
+      </div>
+    </div>
+    <div class="vc" onclick="playCard(this,'5qmFCDaF7zc')">
+      <div class="vc-thumb" style="background-image:url('https://img.youtube.com/vi/5qmFCDaF7zc/maxresdefault.jpg')"></div>
+      <div class="vc-shade"></div>
+      <div class="vc-play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></div>
+      <div class="vc-meta">
+        <div class="vc-title">ROB HERSOV'S BOLD MESSAGE TO SOUTH AFRICA</div>
+        <div class="vc-views">324K VIEWS · YOUTUBE</div>
+      </div>
+    </div>
+    <div class="vc" onclick="loadEmbed(this,'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7463542837201068032?compact=1')">
+      <div class="vc-thumb" style="background-image:url('images/ascend.jpg')"></div>
+      <div class="vc-shade"></div>
+      <div class="vc-play vc-play-li"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></div>
+      <div class="vc-badge vc-badge-li">LINKEDIN</div>
+      <div class="vc-meta">
+        <div class="vc-title">AI IN HUMAN-CENTRED CREATIVE PRODUCTION</div>
+        <div class="vc-views">FELICITY HINTON · LINKEDIN</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §4b  FEATURED FILM
+══════════════════════════════════════ -->
+<section id="film">
+  <div class="sl r">AWARD-SELECTED DOCUMENTARY</div>
+  <div class="film-grid r">
+    <div class="film-poster">
+      <img src="images/athlone.jpg" alt="A Kid From Athlone — official film poster">
+    </div>
+    <div class="film-copy">
+      <h2 class="film-h">A Kid From Athlone</h2>
+      <div class="film-tag">OFFICIAL SELECTION · SOUTHAMPTON FILM WEEK 2023</div>
+      <p>A short documentary following Jean-Marc Johannes — a skateboarder from Athlone, Cape Town. Raised in a tough environment, Jean-Marc found refuge on a board, turning hardship into discipline and, in time, a professional career.</p>
+      <p>Shot on home ground, the film traces his rise and the role he now plays for the next generation of skaters in his community — an Official Selection at Southampton Film Week 2023.</p>
+      <p class="film-credit">DIRECTION · CINEMATOGRAPHY</p>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §4.5  PODCAST PRODUCTION
+══════════════════════════════════════ -->
+<!-- ↓ Swap the gradient placeholders for real episode thumbnails: set background-image on .pod-photo ↓ -->
+<section id="podcasts">
+  <div class="sl r">PODCAST PRODUCTION</div>
+  <h2 class="sec-h r">CONVERSATIONS THAT<br>CARRY WEIGHT</h2>
+  <p class="pod-intro r">Sole producer of long-form podcasts with leading voices across politics, business and culture — from booking and multi-camera capture through to edit and delivery.</p>
+  <div class="pod-grid">
+    <div class="pod r" onclick="podPlay('0MReK4AXCyU')">
+      <div class="pod-photo" style="background-image:url('https://img.youtube.com/vi/0MReK4AXCyU/maxresdefault.jpg')">
+        <div class="pod-play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></div>
+      </div>
+      <div class="pod-name">Hunter Biden</div>
+      <div class="pod-role">Attorney &amp; Author · USA</div>
+    </div>
+    <div class="pod r" onclick="podPlay('5qmFCDaF7zc')">
+      <div class="pod-photo" style="background-image:url('https://img.youtube.com/vi/5qmFCDaF7zc/maxresdefault.jpg')">
+        <div class="pod-play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></div>
+      </div>
+      <div class="pod-name">Rob Hersov</div>
+      <div class="pod-role">Entrepreneur &amp; Investor</div>
+    </div>
+    <div class="pod r" onclick="podPlay('2Ks8Esvcq18')">
+      <div class="pod-photo" style="background-image:url('https://img.youtube.com/vi/2Ks8Esvcq18/maxresdefault.jpg')">
+        <div class="pod-play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></div>
+      </div>
+      <div class="pod-name">Helen Zille</div>
+      <div class="pod-role">Politician · Fmr. WC Premier</div>
+    </div>
+  </div>
+  <p class="pod-more-line r">— and more high-profile guests across politics, business &amp; culture —</p>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §6  CREDITS
+══════════════════════════════════════ -->
+<section id="brands-sec">
+  <div class="r">
+    <div class="sl">FEATURED &amp; BROADCAST ON</div>
+    <div class="brands">
+      <span class="br br-logo br-amazon"><img src="images/logo-amazon.png" alt="Amazon Prime Video"></span>
+      <span class="br br-logo br-ginx"><img src="images/logo-ginx.jpg" alt="Ginx Esports TV"></span>
+      <span class="br br-logo br-sfw"><img src="images/logo-sfw.png" alt="Southampton Film Week"></span>
+      <span class="br br-logo br-sgc"><img src="images/logo-sgc.png" alt="Social Gaming &amp; Coconuts"></span>
+      <span class="br br-logo br-aag"><img src="images/logo-aag.png" alt="Achievement Awards Group"></span>
+      <span class="br br-logo br-light br-humanist"><img src="images/logo-humanist.jpg" alt="Humanist Agents of Change"></span>
+      <span class="br br-logo br-light br-fahari"><img src="images/logo-fahari.jpg" alt="Fahari"></span>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §7  SERVICES
+══════════════════════════════════════ -->
+<section id="services">
+  <div class="sl r">WHAT I DO</div>
+  <h2 class="sec-h r">SERVICES</h2>
+  <div class="svc-grid">
+    <div class="svc r">
+      <div class="svc-n">01</div>
+      <div class="svc-t">CINEMATOGRAPHY</div>
+      <p class="svc-d">Director of photography for film, broadcast &amp; branded content — lighting, composition and camera that serve the story.</p>
+    </div>
+    <div class="svc r">
+      <div class="svc-n">02</div>
+      <div class="svc-t">DIRECTING</div>
+      <p class="svc-d">From concept to final cut — shaping narrative, performance and the on-set feel of a production.</p>
+    </div>
+    <div class="svc r">
+      <div class="svc-n">03</div>
+      <div class="svc-t">PHOTOGRAPHY</div>
+      <p class="svc-d">Editorial &amp; studio portraiture, stills and behind-the-scenes documentation with a cinematic eye.</p>
+    </div>
+    <div class="svc r">
+      <div class="svc-n">04</div>
+      <div class="svc-t">VIDEO EDITING</div>
+      <p class="svc-d">Post-production and finishing — building rhythm, mood and polish from raw footage.</p>
+    </div>
+    <div class="svc r">
+      <div class="svc-n">05</div>
+      <div class="svc-t">PODCAST PRODUCTION</div>
+      <p class="svc-d">Sole producer of long-form podcasts — booking, multi-cam capture, edit and delivery for high-profile guests.</p>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §8  ABOUT
+══════════════════════════════════════ -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-portrait r">
+      <img src="images/headshot.jpg" alt="Dylan Van Zyl, cinematographer" loading="lazy">
+    </div>
+    <div class="about-copy">
+      <div class="sl r">ABOUT</div>
+      <h2 class="about-h r">Stories told<br>through light.</h2>
+      <p class="r">I'm Dylan Van Zyl — a Cape Town–based cinematographer, director and photographer with seven years behind the lens. My work spans documentary, branded film, broadcast television and editorial portraiture.</p>
+      <p class="r">I've shot as Director of Photography on a variety show that aired on Ginx Esports and was later acquired by Amazon Prime, directed the short film <em>A Kid From Athlone</em> — an Official Selection at Southampton Film Week 2023 — and currently lead corporate showcase production at DFY Studios.</p>
+      <p class="r">Whatever the brief, my craft is the same: turning concepts into images that carry a brand's story and make people feel something.</p>
+      <img class="about-laurel r" src="images/laurel.png" alt="Official Selection — Southampton Film Week 2023">
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §9  GALLERY RAIL  (scroll-linked)
+══════════════════════════════════════ -->
+<section id="gallery">
+  <div class="gallery-sticky">
+    <div class="gallery-hd">
+      <div>
+        <div class="sl">SELECTED FRAMES</div>
+        <div class="gallery-title">STILL WORK</div>
+      </div>
+      <div class="gallery-hint">SCROLL TO MOVE THE RAIL →</div>
+    </div>
+
+    <div class="g-track-wrap">
+      <!-- ↓ Add more curated frames here as you finalise them ↓ -->
+      <div class="g-track" id="g-track">
+        <div class="gi"><img src="images/g1.jpg" alt="Studio portrait" loading="lazy"></div>
+        <div class="gi"><img src="images/g2.jpg" alt="Studio portrait" loading="lazy"></div>
+        <div class="gi"><img src="images/g3.jpg" alt="Studio portrait" loading="lazy"></div>
+        <div class="gi"><img src="images/g4.jpg" alt="Studio portrait" loading="lazy"></div>
+        <div class="gi"><img src="images/g5.jpg" alt="Studio portrait" loading="lazy"></div>
+        <div class="gi"><img src="images/g6.jpg" alt="Studio portrait" loading="lazy"></div>
+        <div class="gi"><img src="images/g7.jpg" alt="Studio portrait" loading="lazy"></div>
+        <div class="gi"><img src="images/g8.jpg" alt="Studio portrait" loading="lazy"></div>
+      </div>
+    </div>
+
+    <div class="g-prog"><div class="g-prog-fill" id="g-prog"></div></div>
+  </div>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §5.5  EXPERIENCE
+══════════════════════════════════════ -->
+<section id="experience">
+  <div class="sl r">CAREER</div>
+  <h2 class="sec-h r">EXPERIENCE</h2>
+  <div class="xp-list">
+    <div class="xp r">
+      <div class="xp-year">2021 — NOW</div>
+      <div class="xp-body">
+        <div class="xp-role">Senior Videographer &amp; Corporate Showcase Director</div>
+        <div class="xp-co">DFY Studios</div>
+        <p class="xp-d">Lead the team producing corporate brand films — concept, prep and execution — aligning visuals with strategic objectives.</p>
+      </div>
+    </div>
+    <div class="xp r">
+      <div class="xp-year">2020 — 21</div>
+      <div class="xp-body">
+        <div class="xp-role">Director of Photography, Videographer &amp; Photographer</div>
+        <div class="xp-co">GameOut · Social Gaming &amp; Coconuts</div>
+        <p class="xp-d">DOP of a weekly variety show on Ginx Esports, later acquired and aired on Amazon Prime. Honed lighting, composition and on-set workflow.</p>
+      </div>
+    </div>
+    <div class="xp r">
+      <div class="xp-year">2018 — 20</div>
+      <div class="xp-body">
+        <div class="xp-role">BTS Videographer &amp; Production Coordinator</div>
+        <div class="xp-co">The Fixers SA</div>
+        <p class="xp-d">Captured behind-the-scenes footage across film, TV, music videos and shoots, while coordinating schedules, resources and crew.</p>
+      </div>
+    </div>
+    <div class="xp r">
+      <div class="xp-year">2022 — 23</div>
+      <div class="xp-body">
+        <div class="xp-role">Director — <em>A Kid From Athlone</em></div>
+        <div class="xp-co">Official Selection · Southampton Film Week 2023</div>
+        <p class="xp-d">Wrote and directed a short film selected for international festival screening.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+
+<!-- ══════════════════════════════════════
+  §7  CONTACT
+══════════════════════════════════════ -->
+<section id="contact">
+  <div class="ct-inner">
+    <div class="sl r">GET IN TOUCH</div>
+    <h2 class="ct-h r">LET'S<br>WORK.</h2>
+    <p class="ct-sub r">Commissions · Collaborations · Licensing</p>
+
+    <form id="contact-form" onsubmit="handleSubmit(event)">
+      <!-- Web3Forms: paste your access key below (no account needed — get it free at https://web3forms.com) -->
+      <input type="hidden" name="access_key" value="5fecc2e8-c664-4da0-a0dc-abdf71e728c2">
+      <input type="hidden" name="subject" value="New enquiry from dylanvanzyl.com">
+      <input type="hidden" name="from_name" value="Dylan Van Zyl — Portfolio">
+      <!-- honeypot: hidden from humans, catches bots -->
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+
+      <div class="fg r">
+        <label>YOUR NAME</label>
+        <input type="text" name="name" placeholder="First Last" autocomplete="name" required>
+      </div>
+      <div class="fg r">
+        <label>EMAIL</label>
+        <input type="email" name="email" placeholder="hello@example.com" autocomplete="email" required>
+      </div>
+      <div class="fg r">
+        <label>PROJECT / MESSAGE</label>
+        <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+      </div>
+
+      <button class="send-btn r" type="submit">SEND IT →</button>
+    </form>
+
+    <div class="ct-direct r">
+      <span>OR REACH ME DIRECTLY</span>
+      <a href="mailto:dylanvanzyl.media@gmail.com">dylanvanzyl.media@gmail.com</a>
+      <a href="tel:+27723963243">+27 72 396 3243</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── VIDEO LIGHTBOX ──────────────── -->
+<div id="video-modal" class="vmodal" onclick="closeModal(event)">
+  <div class="vmodal-inner">
+    <button class="vmodal-close" onclick="closeModal(event)" aria-label="Close">✕</button>
+    <div class="vmodal-frame" id="vmodal-frame"></div>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 DYLAN VAN ZYL. ALL RIGHTS RESERVED.</span>
+  <span>CAPE TOWN, ZA</span>
+</footer>
+
+<script>
+/* ── MOBILE NAV ─────────────────────────── */
+function toggleNav() {
+  const links = document.getElementById('nav-links');
+  const btn = document.querySelector('.nav-toggle');
+  const open = links.classList.toggle('open');
+  btn.classList.toggle('active', open);
+  btn.setAttribute('aria-expanded', open);
+  document.body.style.overflow = open ? 'hidden' : '';
+}
+function closeNav() {
+  const links = document.getElementById('nav-links');
+  if (!links.classList.contains('open')) return;
+  links.classList.remove('open');
+  document.querySelector('.nav-toggle').classList.remove('active');
+  document.querySelector('.nav-toggle').setAttribute('aria-expanded', 'false');
+  document.body.style.overflow = '';
+}
+
+/* ── SCROLL REVEAL ──────────────────────── */
+const revObs = new IntersectionObserver(entries => {
+  let delay = 0;
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.style.transitionDelay = delay + 'ms';
+      e.target.classList.add('on');
+      delay += 60;
+      revObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08 });
+document.querySelectorAll('.r').forEach(el => revObs.observe(el));
+
+/* ── NUMBER TUMBLER ─────────────────────── */
+function animNum(el) {
+  const target = +el.dataset.target;
+  const fmt    = el.dataset.fmt;
+  const sfx    = el.dataset.sfx || '';
+  const dur    = 2200;
+  const t0     = performance.now();
+  (function tick(now) {
+    const p = Math.min((now - t0) / dur, 1);
+    const e = 1 - Math.pow(1 - p, 4); // quartic ease-out
+    const v = Math.round(e * target);
+    el.textContent = fmt === 'mil'
+      ? (v / 1e6).toFixed(0) + 'M+'
+      : v.toLocaleString() + sfx;
+    if (p < 1) requestAnimationFrame(tick);
+  })(t0);
+}
+
+const statsObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('.stat-n').forEach(animNum);
+      statsObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.3 });
+statsObs.observe(document.querySelector('.stats'));
+
+/* ── GALLERY SCROLL RAIL ────────────────── */
+const sec  = document.getElementById('gallery');
+const trk  = document.getElementById('g-track');
+const prog = document.getElementById('g-prog');
+
+function railUpdate() {
+  const secTop  = sec.offsetTop;
+  const secH    = sec.offsetHeight;
+  const vh      = window.innerHeight;
+  const scrolled = window.scrollY - secTop;
+  const maxScr  = secH - vh;
+  const p = Math.max(0, Math.min(1, scrolled / maxScr));
+
+  const trackW   = trk.scrollWidth;
+  const wrapperW = trk.parentElement.offsetWidth;
+  const maxTx    = -(trackW - wrapperW);
+
+  trk.style.transform = `translateX(${(maxTx * p).toFixed(1)}px)`;
+  prog.style.width     = (p * 100).toFixed(1) + '%';
+}
+window.addEventListener('scroll', railUpdate, { passive: true });
+window.addEventListener('resize', railUpdate);
+railUpdate();
+
+/* ── VIDEO CARD ─────────────────────────── */
+function playCard(card, id) {
+  if (!id || id.startsWith('VIDEO_ID')) return; // placeholder guard
+  const ifr = document.createElement('iframe');
+  ifr.src   = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1`;
+  ifr.allow = 'autoplay; fullscreen';
+  ifr.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:none';
+  card.innerHTML = '';
+  card.appendChild(ifr);
+}
+
+/* ── PODCAST LIGHTBOX ───────────────────── */
+function podPlay(id) {
+  const frame = document.getElementById('vmodal-frame');
+  const modal = document.getElementById('video-modal');
+  frame.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1" allow="autoplay; fullscreen"></iframe>`;
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal(e) {
+  if (e && e.target.closest('.vmodal-inner') && !e.target.classList.contains('vmodal-close')) return;
+  document.getElementById('video-modal').classList.remove('open');
+  document.getElementById('vmodal-frame').innerHTML = '';
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+/* ── EMBED LOADER (DiscoverSport / LinkedIn) ── */
+function loadEmbed(card, url) {
+  const ifr = document.createElement('iframe');
+  ifr.src   = url;
+  ifr.allow = 'autoplay; fullscreen';
+  ifr.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:none';
+  card.innerHTML = '';
+  card.style.cursor = 'default';
+  card.setAttribute('onclick','');
+  card.appendChild(ifr);
+}
+
+/* ── SHOWREEL PLAYER ────────────────────── */
+function loadShowreel(id) {
+  if (!id) return;
+  const wrap = document.getElementById('main-player');
+  const ifr  = document.createElement('iframe');
+  ifr.src    = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1`;
+  ifr.allow  = 'autoplay; fullscreen';
+  ifr.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:none';
+  wrap.innerHTML = '';
+  wrap.appendChild(ifr);
+}
+
+/* ── CONTACT FORM (Web3Forms) ───────────── */
+async function handleSubmit(e) {
+  e.preventDefault();
+  const form = e.target;
+  const btn  = form.querySelector('.send-btn');
+
+  // native required-field validation
+  if (!form.reportValidity()) return;
+
+  btn.classList.remove('is-error');
+  btn.textContent = 'SENDING…';
+  btn.disabled = true;
+
+  try {
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form)
+    });
+    const data = await res.json();
+
+    if (data.success) {
+      btn.textContent = 'SENT ✓';
+      btn.style.borderColor = 'rgba(255,255,255,.5)';
+      btn.style.color = 'rgba(255,255,255,.5)';
+      form.reset();
+    } else {
+      throw new Error(data.message || 'Submission failed');
+    }
+  } catch (err) {
+    btn.classList.add('is-error');
+    btn.textContent = 'TRY AGAIN →';
+    btn.disabled = false;
+    console.error('Contact form error:', err);
+  }
+}
+</script>
+</body>
+</html>

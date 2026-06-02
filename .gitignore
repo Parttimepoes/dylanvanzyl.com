@@ -1,0 +1,5 @@
+# local/dev files — not for production
+.claude/
+TODO.md
+.DS_Store
+Thumbs.db
